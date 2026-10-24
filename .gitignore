@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+*.zip
+*.parquet
+*.pkl
+*.joblib
+.DS_Store
+# Raw datasets must not be committed
+data/
+raw_data/
