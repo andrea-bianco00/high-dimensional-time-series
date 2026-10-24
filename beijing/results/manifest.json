@@ -1,0 +1,12 @@
+{
+  "source_sha256": "d1b9261c54132f04c374f762f1e5e512af19f95c95fd6bfa1e8ac7e927e3b0b8",
+  "target": "one-step-ahead PM2.5, valid target and prior observed",
+  "training": "2013-03 to 2014-12",
+  "validation": "2015",
+  "refit": "2013-03 to 2015-12",
+  "evaluation": "2016, RETROSPECTIVE ALREADY INSPECTED",
+  "covariates": "lag 1 of 10 weather/pollutant columns from all 12 stations",
+  "model": "LightGBM fixed 70 trees, 31 leaves, lr .045, min_child_samples 80, lambda 10",
+  "selection": "Fixed configuration for published ablation; chosen after prior inspection",
+  "caveat": "Not independent prospective validation; reporting latency unknown"
+}
